@@ -24,13 +24,22 @@
 </div>
 
 ---
-
 ## دانلود
 
-- **Android (Google Play):** https://play.google.com/store/apps/details?id=app.dodo.jaman
-- **Windows:** https://github.com/Jaman003/dodo_program/releases/latest
-- **macOS:** https://github.com/Jaman003/dodo_program/releases/latest
-- **iOS:** *به‌زودی (در حال انتشار)*
+- **اندروید (Google Play):**  
+  https://play.google.com/store/apps/details?id=app.dodo.jaman
+
+- **ویندوز (x64):**  
+  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-Setup-Windows-x64.exe
+
+- **macOS (Universal):**  
+  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-macOS-universal.dmg
+
+- **iOS:**  
+  *به‌زودی (در حال انتشار)*
+
+> نسخه‌های ویندوز و مک مستقیماً از طریق GitHub Releases ارائه می‌شوند.
+
 
 > نکته: فایل‌های نصب ویندوز و مک را داخل **GitHub Releases** آپلود کن تا لینک بالا همیشه آخرین نسخه را نشان دهد.
 
