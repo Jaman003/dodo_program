@@ -27,13 +27,20 @@ Fast, simple VPN client powered by the **Xray core**.
 
 ## Download
 
-- **Android (Google Play):** https://play.google.com/store/apps/details?id=app.dodo.jaman
-- **Windows:** https://github.com/Jaman003/dodo_program/releases/latest
-- **macOS:** https://github.com/Jaman003/dodo_program/releases/latest
-- **iOS:** *Coming soon (in publication)*
+- **Android (Google Play):**  
+  https://play.google.com/store/apps/details?id=app.dodo.jaman
 
-> Tip: Upload your `.exe` / `.msi` and `.dmg` / `.pkg` to **GitHub Releases**.
-> Users can always download the latest builds via the link above.
+- **Windows (x64):**  
+  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-Setup-Windows-x64.exe
+
+- **macOS (Universal):**  
+  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-macOS-universal.dmg
+
+- **iOS:**  
+  *Coming soon (currently in publication)*
+
+> Windows and macOS builds are distributed directly via GitHub Releases.
+
 
 ---
 
