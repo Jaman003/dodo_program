@@ -27,10 +27,19 @@
 
 ## Скачать
 
-- **Android (Google Play):** https://play.google.com/store/apps/details?id=app.dodo.jaman
-- **Windows:** https://github.com/Jaman003/dodo_program/releases/latest
-- **macOS:** https://github.com/Jaman003/dodo_program/releases/latest
-- **iOS:** *Скоро (в процессе публикации)*
+- **Android (Google Play):**  
+  https://play.google.com/store/apps/details?id=app.dodo.jaman
+
+- **Windows (x64):**  
+  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-Setup-Windows-x64.exe
+
+- **macOS (Universal):**  
+  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-macOS-universal.dmg
+
+- **iOS:**  
+  *Скоро (версия в процессе публикации)*
+
+> Сборки Windows и macOS распространяются напрямую через GitHub Releases.
 
 > Совет: загружай установщики `.exe/.msi` и `.dmg/.pkg` в **GitHub Releases** — ссылка выше всегда ведёт на последнюю версию.
 
