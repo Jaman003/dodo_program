@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" width="96" alt="Логотип DoDo APP" />
+<img src="logo.png" width="96" alt="Логотип DoDo APP" />
 
 # DoDo APP — VPN-клиент на базе Xray
 
