@@ -1,42 +1,79 @@
-# DoDo APP VPN Client
+<div align="center">
 
-Welcome to the DoDo APP VPN client! This application is designed to provide secure and private internet access to all users, ensuring that your online activities remain confidential.
+<img src="assets/logo.png" width="96" alt="DoDo APP logo" />
+
+# DoDo APP — Xray-based VPN Client
+
+Fast, simple VPN client powered by the **Xray core**.
+
+<p>
+  <a href="#download">Download</a> •
+  <a href="#features">Features</a> •
+  <a href="#faq">FAQ</a> •
+  <a href="#security--privacy">Security & Privacy</a>
+</p>
+
+<p>
+  <a href="README.md">English</a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.fa.md">فارسی</a>
+</p>
+
+<img src="assets/banner.png" alt="DoDo APP banner" />
+
+</div>
+
+---
+
+## Download
+
+- **Android (Google Play):** https://play.google.com/store/apps/details?id=app.dodo.jaman
+- **Windows:** https://github.com/Jaman003/dodo_program/releases/latest
+- **macOS:** https://github.com/Jaman003/dodo_program/releases/latest
+- **iOS:** *Coming soon (in publication)*
+
+> Tip: Upload your `.exe` / `.msi` and `.dmg` / `.pkg` to **GitHub Releases**.
+> Users can always download the latest builds via the link above.
 
 ---
 
 ## Features
 
-- **Multi-Language Support**: The DoDo app is designed for users worldwide, offering support for various languages to enhance user experience.
-- **High-Speed Connections**: Enjoy fast and reliable connections with our state-of-the-art infrastructure.
-- **Secure Protocols**: We prioritize your security by using advanced VPN protocols to encrypt your data.
-- **User-Friendly Interface**: The DoDo app is easy to navigate, making it accessible for everyone, regardless of technical skills.
+- ✅ Powered by **Xray core**
+- ⚡ One-tap connect / disconnect
+- 🔁 Profiles & subscription links *(Xray-compatible configs)*
+- 🧭 Routing / bypass rules *(if enabled in your build)*
+- 🔒 DNS / leak protection *(if enabled in your build)*
+- 🧩 Clean UI for everyday use
 
 ---
 
-## Getting Started
+## Screenshots
 
-1. **Download the App**: Available for various platforms (Windows, macOS, iOS, Android).
-2. **Create an Account**: Sign up for free to start using our VPN service.
-3. **Choose Your Server**: Select from numerous servers located worldwide.
-4. **Connect**: Enjoy secure and private browsing.
-
----
-
-## Supported Languages
-
-- English
-- Spanish
-- French
-- Chinese
-- Arabic
-- And many more...
+<div align="center">
+  <img src="assets/screenshot-android.png" width="45%" alt="Android screenshot" />
+  <img src="assets/screenshot-desktop.png" width="45%" alt="Desktop screenshot" />
+</div>
 
 ---
 
-## Contact Us
+## FAQ
 
-For support, reach out to our customer service team:
-- Email: support@dodovpn.com
-- Phone: +1-800-123-4567
+**Is DoDo APP a VPN service?**  
+No. DoDo APP is a client. You connect to your own server or subscription.
 
-Your privacy and security are our top priority. Thank you for choosing DoDo APP VPN!
+**Does it collect logs?**  
+See: [Privacy Policy](docs/PRIVACY.md)
+
+---
+
+## Security & Privacy
+
+- Read: [Privacy Policy](docs/PRIVACY.md)
+- Terms: [Terms of Use](docs/TERMS.md)
+- Report vulnerabilities: open a GitHub Security Advisory *(or add an email here)*
+
+---
+
+## License
+Jaman Developer
