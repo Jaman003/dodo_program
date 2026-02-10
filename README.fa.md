@@ -1,6 +1,6 @@
 <div dir="rtl" align="center">
 
-<img src="assets/logo.png" width="96" alt="لوگوی DoDo APP" />
+<img src="logo.png" width="96" alt="لوگوی DoDo APP" />
 
 # DoDo APP — کلاینت VPN مبتنی بر Xray
 
