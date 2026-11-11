@@ -19,7 +19,7 @@
 <a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-[Website](https://dodoproxy.app/) · [Documentation](https://dodoproxy.app/docs/) · [Updates](https://dodoproxy.app/updates/) · [Feedback](https://dodoproxy.app/feedback/)
+[Сайт](https://dodoproxy.app/) · [Документация](https://dodoproxy.app/docs/) · [Обновления](https://dodoproxy.app/updates/) · [Обратная связь](https://dodoproxy.app/feedback/)
 
 </div>
 
