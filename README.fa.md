@@ -1,87 +1,119 @@
-<div dir="rtl" align="center">
+<div align="center">
 
-<img src="logo.png" width="96" alt="لوگوی DoDo APP" />
+<img src="media/dodo-astronaut.png" width="112" alt="DoDo astronaut" />
 
-# DoDo APP — کلاینت VPN مبتنی بر Xray
+# DoDo APP
 
-کلاینت VPN سریع و ساده با هسته‌ی **Xray**.
+**کلیدهای شما. اتصال شما.**
+
+[English](README.md) · [Русский](README.ru.md) · [فارسی](README.fa.md) · [简体中文](README.zh-CN.md)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/hero-dark.svg" />
+  <img src="media/hero-light.svg" width="900" alt="DoDo APP — Your keys. Your connection." />
+</picture>
 
 <p>
-  <a href="#دانلود">دانلود</a> •
-  <a href="#ویژگی‌ها">ویژگی‌ها</a> •
-  <a href="#پرسش‌های-متداول">پرسش‌های متداول</a> •
-  <a href="#امنیت-و-حریم-خصوصی">امنیت</a>
+<a href="https://apps.apple.com/app/id6759006686"><img src="media/app-store.svg" width="210" alt="iPhone and iPad — App Store" /></a>
+<a href="https://play.google.com/store/apps/details?id=app.dodo.jaman"><img src="media/google-play.svg" width="210" alt="Android — Google Play" /></a>
+<a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-<p>
-  <a href="README.md">English</a> ·
-  <a href="README.ru.md">Русский</a> ·
-  <a href="README.fa.md">فارسی</a>
-</p>
+[Website](https://dodoproxy.app/) · [Documentation](https://dodoproxy.app/docs/) · [Updates](https://dodoproxy.app/updates/) · [Feedback](https://dodoproxy.app/feedback/)
 
-<img src="assets/banner.png" alt="بنر DoDo APP" />
+</div>
+
+<div dir="rtl">
+
+## تنظیمات اتصال شما در یک برنامه
+
+کلیدها و تنظیمات اتصال خود را در یک برنامه نگه دارید، سرور را انتخاب کنید و اتصال را مدیریت کنید. DoDo یک کلاینت مبتنی بر Xray برای تنظیمات ارائه‌دهنده VPN یا سرور شخصی شماست. خود برنامه سرویس VPN نمی‌فروشد و سرور رایگان ارائه نمی‌کند.
+
+### دریافت برنامه
+
+| دستگاه | دریافت رسمی |
+| --- | --- |
+| iPhone و iPad | [App Store](https://apps.apple.com/app/id6759006686) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [فایل APK](https://dodoproxy.app/#download) |
+| Mac | [Mac App Store](https://apps.apple.com/app/id6759006686) |
+| Windows | نسخه به‌روز در حال آماده‌سازی است |
+
+اگر DoDo را از Google Play نصب کرده‌اید، آن را از همان فروشگاه به‌روز کنید. امضای APK دریافتی از سایت ممکن است متفاوت باشد. **برای رفع ناسازگاری امضا، برنامه و اطلاعات خود را حذف نکنید.**
+
+## امکانات روزمره
+
+- **افزودن کلیدهای خودتان:** از کلیپ‌بورد، با ورود دستی یا اسکن QR.
+- **حفظ پروفایل کامل:** قالب‌های پشتیبانی‌شده URI، فهرست‌های Base64 و پیکربندی کامل سازگار با Xray JSON.
+- **بررسی اتصال:** روش‌های TCP، HTTP GET، HTTP HEAD، ICMP و نمایش تخمینی DoDo Ping.
+- **تنظیم مسیرها:** مسیریابی و DNS، داده‌های GeoIP/GeoSite داخلی و بررسی به‌روزرسانی آن‌ها.
+- **اطلاعات موردنیاز:** وضعیت کلید، تاریخ انقضا، حجم مجاز و زمان به‌روزرسانی، در صورت ارسال از طرف ارائه‌دهنده.
+- **کنترل برنامه:** اشتراک‌گذاری QR تنظیمات، گزارش‌های زنده عیب‌یابی و بازنشانی تنظیمات.
+- **ظاهر دلخواه:** پوسته روشن و تیره و مجموعه آواتارهای DoDo.
+
+VLESS / REALITY، VMess، Trojan، Shadowsocks، Hysteria2 و SOCKS5 در [راهنمای پروتکل‌ها](https://dodoproxy.app/docs/#protocols) توضیح داده شده‌اند. پشتیبانی از ترنسپورت‌ها، WireGuard و تنظیمات پیشرفته در همه پلتفرم‌ها یکسان نیست؛ [جدول سازگاری](https://dodoproxy.app/docs/#status) را ببینید.
+
+DoDo Ping مقدار تخمینی نشان می‌دهد، نه تأخیر خام TCP. باز بودن پورت TCP به‌تنهایی به معنای موفقیت احراز هویت یا دسترسی به اینترنت از طریق VPN نیست.
+
+## رابطی آشنا روی دستگاه‌های شما
+
+</div>
+
+<table>
+<tr><th align="center">iPhone · iPad</th><th align="center">Android</th></tr>
+<tr>
+<td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="media/ios-dark.png" /><img src="media/ios-light.png" width="270" alt="DoDo روی iPhone با تنظیمات نمایشی" /></picture></td>
+<td align="center"><img src="media/android-dark.png" width="270" alt="DoDo روی Android برای افزودن تنظیمات" /></td>
+</tr>
+</table>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/macos-dark.jpg" />
+  <img src="media/macos-light.jpg" width="900" alt="DoDo روی macOS با سرورهای نمایشی" />
+</picture>
+
+<div dir="rtl">
+
+تصاویر با داده‌های نمایشی تهیه شده‌اند. ظاهر و امکانات هر پلتفرم ممکن است متفاوت باشد.
+
+## برای ارائه‌دهندگان VPN
+
+DoDo می‌تواند با Remnawave یا پنل اختصاصی شما کار کند؛ استفاده از پنل مشخص الزامی نیست. برای افزودن تنظیمات و اتصال عادی، حساب ارائه‌دهنده یا API DoDo لازم ندارید.
+
+| موضوع | راهنما |
+| --- | --- |
+| پروتکل‌ها و پروفایل کامل JSON | [قالب‌ها و سازگاری](https://dodoproxy.app/docs/#formats) |
+| دکمه در ربات یا وب‌سایت | [دیپ‌لینک‌ها](https://dodoproxy.app/docs/#deeplinks) |
+| نام، لوگو، پشتیبانی و محدودیت دستگاه | [هدرهای HTTP و HWID](https://dodoproxy.app/docs/#headers) |
+| آدرس جایگزین دریافت‌شده از قبل | [fallback-url](https://dodoproxy.app/docs/#subscription-fallback) |
+| لینک‌های رمزگذاری‌شده DoDo | [crypt1](https://dodoproxy.app/docs/#crypt1) |
+| مسیریابی و داده‌های داخلی | [مسیریابی](https://dodoproxy.app/docs/#routing) · [GeoIP / GeoSite](https://dodoproxy.app/docs/#geodata) |
+
+پنل ارائه‌دهندگان به‌صورت **رایگان در دسترسی اولیه** قرار دارد. امکانات ظاهری، استوری‌های عمومی و دیگر یکپارچه‌سازی‌ها شرایط و وضعیت انتشار جداگانه دارند؛ [صفحه ارائه‌دهندگان](https://dodoproxy.app/providers/) را ببینید. شناسه عمومی ارائه‌دهنده و تأیید DNS، پرداخت هزینه VPN از طرف کاربر را اثبات نمی‌کنند.
+
+**نکته crypt1 در Android:** لینک را از کلیپ‌بورد یا به‌صورت دستی وارد کنید. تشخیص QRهای بسیار متراکم crypt1 با دوربین بعضی دستگاه‌ها، از جمله HUAWEI آزمایش‌شده، هنوز نیاز به بهبود دارد. اگر اسکن انجام نمی‌شود، از کلیپ‌بورد یا ورود دستی استفاده کنید.
+
+## همراه DoDo بمانید
+
+- [تغییرات نسخه‌ها](https://dodoproxy.app/updates/)
+- [گزارش مشکل یا پیشنهاد](https://dodoproxy.app/feedback/)
+- [گروه گفتگو در تلگرام · @dododeveloper](https://t.me/dododeveloper)
+- [کانال اخبار · @dodoproxy](https://t.me/dodoproxy)
+- [عیب‌یابی و تنظیمات داده‌ها](https://dodoproxy.app/docs/#diagnostics)
+
+آدرس شخصی تنظیمات، لینک crypt1، گذرواژه، HWID یا گزارش‌های حاوی اطلاعات محرمانه را عمومی نکنید. گزارش‌های فنی خطا با اجازه شما ارسال می‌شوند؛ در برنامه می‌توانید ارسال را غیرفعال و گزارش‌ها را حذف کنید.
+
+این مخزن برای معرفی برنامه، تصاویر و لینک‌های رسمی است؛ **کد منبع برنامه در آن منتشر نمی‌شود.**
 
 </div>
 
 ---
-## دانلود
-
-- **اندروید (Google Play):**  
-  https://play.google.com/store/apps/details?id=app.dodo.jaman
-
-- **ویندوز (x64):**  
-  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-Setup-Windows-x64.exe
-
-- **macOS (Universal):**  
-  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-macOS-universal.dmg
-
-- **iOS:**  
-  *به‌زودی (در حال انتشار)*
-
-> نسخه‌های ویندوز و مک مستقیماً از طریق GitHub Releases ارائه می‌شوند.
 
 
-> نکته: فایل‌های نصب ویندوز و مک را داخل **GitHub Releases** آپلود کن تا لینک بالا همیشه آخرین نسخه را نشان دهد.
-
----
-
-## ویژگی‌ها
-
-- ✅ مبتنی بر **Xray core**
-- ⚡ اتصال / قطع سریع
-- 🔁 پروفایل‌ها و لینک‌های اشتراک *(کانفیگ‌های سازگار با Xray)*
-- 🧭 قوانین مسیریابی / bypass *(در صورت فعال بودن)*
-- 🔒 محافظت DNS / جلوگیری از نشت *(در صورت فعال بودن)*
-- 🧩 رابط کاربری ساده
-
----
-
-## تصاویر
 
 <div align="center">
-  <img src="assets/screenshot-android.png" width="45%" alt="اسکرین‌شات اندروید" />
-  <img src="assets/screenshot-desktop.png" width="45%" alt="اسکرین‌شات دسکتاپ" />
+
+**by Jaman Developer**
+
+[English](README.md) · [Русский](README.ru.md) · [فارسی](README.fa.md) · [简体中文](README.zh-CN.md)
+
 </div>
-
----
-
-## پرسش‌های متداول
-
-**آیا DoDo APP یک سرویس VPN است؟**  
-خیر. DoDo APP یک کلاینت است و به سرور/اشتراک خودتان متصل می‌شوید.
-
-**آیا لاگ جمع‌آوری می‌شود؟**  
-لطفاً [Privacy Policy](docs/PRIVACY.md) را ببینید.
-
----
-
-## امنیت و حریم خصوصی
-
-- سیاست: [Privacy Policy](docs/PRIVACY.md)
-- شرایط: [Terms of Use](docs/TERMS.md)
-
----
-
-## لایسنس
-
-لایسنس پروژه را مشخص کنید (MIT / Apache-2.0 / Proprietary).

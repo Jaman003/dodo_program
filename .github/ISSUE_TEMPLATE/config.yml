@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Feedback / Обратная связь
+    url: https://dodoproxy.app/feedback/
+    about: Report a problem or suggest a feature. Never share personal keys, passwords or configuration URLs.
+  - name: Provider documentation / Провайдерам
+    url: https://dodoproxy.app/docs/
+    about: Configuration formats, deep links, headers and platform compatibility.
+  - name: Telegram community / Сообщество
+    url: https://t.me/dododeveloper
+    about: Ask questions and discuss DoDo with the community.

@@ -1,86 +1,111 @@
 <div align="center">
 
-<img src="logo.png" width="96" alt="DoDo APP logo" />
+<img src="media/dodo-astronaut.png" width="112" alt="DoDo astronaut" />
 
-# DoDo APP — Xray-based VPN Client
+# DoDo APP
 
-Fast, simple VPN client powered by the **Xray core**.
+**Your keys. Your connection.**
+
+[English](README.md) · [Русский](README.ru.md) · [فارسی](README.fa.md) · [简体中文](README.zh-CN.md)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/hero-dark.svg" />
+  <img src="media/hero-light.svg" width="900" alt="DoDo APP — Your keys. Your connection." />
+</picture>
 
 <p>
-  <a href="#download">Download</a> •
-  <a href="#features">Features</a> •
-  <a href="#faq">FAQ</a> •
-  <a href="#security--privacy">Security & Privacy</a>
+<a href="https://apps.apple.com/app/id6759006686"><img src="media/app-store.svg" width="210" alt="iPhone and iPad — App Store" /></a>
+<a href="https://play.google.com/store/apps/details?id=app.dodo.jaman"><img src="media/google-play.svg" width="210" alt="Android — Google Play" /></a>
+<a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-<p>
-  <a href="README.md">English</a> ·
-  <a href="README.ru.md">Русский</a> ·
-  <a href="README.fa.md">فارسی</a>
-</p>
-
-<img src="assets/banner.png" alt="DoDo APP banner" />
+[Website](https://dodoproxy.app/) · [Documentation](https://dodoproxy.app/docs/) · [Updates](https://dodoproxy.app/updates/) · [Feedback](https://dodoproxy.app/feedback/)
 
 </div>
 
+## One app for your configurations
+
+Add your connection keys, choose a server and keep an eye on your connection. DoDo is an Xray-based client for configurations supplied by your VPN provider or your own server. It does not sell VPN access or include free servers.
+
+### Download
+
+| Device | Official download |
+| --- | --- |
+| iPhone and iPad | [App Store](https://apps.apple.com/app/id6759006686) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [Signed APK](https://dodoproxy.app/#download) |
+| Mac | [Mac App Store](https://apps.apple.com/app/id6759006686) |
+| Windows | An updated release is being prepared |
+
+If you installed DoDo through Google Play, update it through the store. A directly downloaded APK may use a different signing key. **Do not uninstall the app or delete its data to work around a signature mismatch.**
+
+## Made for everyday use
+
+- **Bring your keys.** Import supported links from the clipboard, enter them manually or scan a QR code.
+- **Keep full profiles together.** Supported URI formats, Base64 lists and compatible complete Xray JSON profiles.
+- **Check the connection.** TCP, HTTP GET, HTTP HEAD, ICMP and the estimated DoDo Ping display mode.
+- **Set your route.** Routing and DNS settings, bundled GeoIP/GeoSite data and checked updates.
+- **Find the useful details.** Configuration status, expiry date, traffic allowance and update information when supplied by your provider.
+- **Keep control.** Share a configuration QR code, view live diagnostic logs or reset the app settings.
+- **Make it yours.** Light and dark themes, plus the DoDo avatar collection.
+
+VLESS / REALITY, VMess, Trojan, Shadowsocks, Hysteria2 and SOCKS5 are covered in the [protocol guide](https://dodoproxy.app/docs/#protocols). Support for transports, WireGuard and advanced options varies by platform and profile. Check the [compatibility table](https://dodoproxy.app/docs/#status) rather than assuming every Xray configuration is supported.
+
+DoDo Ping is an estimated display value, not raw TCP latency. An open TCP port alone does not prove that VPN authentication or internet access works.
+
+## A familiar interface on your devices
+
+<table>
+<tr><th align="center">iPhone · iPad</th><th align="center">Android</th></tr>
+<tr>
+<td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="media/ios-dark.png" /><img src="media/ios-light.png" width="270" alt="DoDo on iPhone with Demo User configuration" /></picture></td>
+<td align="center"><img src="media/android-dark.png" width="270" alt="DoDo on Android, ready to add a configuration" /></td>
+</tr>
+</table>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/macos-dark.jpg" />
+  <img src="media/macos-light.jpg" width="900" alt="DoDo on macOS with demonstration server profiles" />
+</picture>
+
+Screens use demonstration data. Appearance and available features differ by platform.
+
+## For VPN providers
+
+Use Remnawave or your own panel. A specific panel, provider account or DoDo API is not required for ordinary configuration import and VPN use.
+
+The documentation includes:
+
+| Integration | Guide |
+| --- | --- |
+| Client protocols and full JSON profiles | [Formats and compatibility](https://dodoproxy.app/docs/#formats) |
+| Buttons in your bot or website | [Deep links](https://dodoproxy.app/docs/#deeplinks) |
+| Provider name, logo, support and device limits | [HTTP headers and HWID](https://dodoproxy.app/docs/#headers) |
+| A previously supplied backup configuration address | [fallback-url](https://dodoproxy.app/docs/#subscription-fallback) |
+| DoDo encrypted links and compatible encrypted responses | [crypt1](https://dodoproxy.app/docs/#crypt1) |
+| Routing rules and bundled data | [Routing](https://dodoproxy.app/docs/#routing) · [GeoIP / GeoSite](https://dodoproxy.app/docs/#geodata) |
+
+The optional provider console is in **free early access**. Branding, public stories and other integrations have separate requirements and rollout status. See the [provider page](https://dodoproxy.app/providers/) before planning a production integration. Public provider IDs and DNS verification do not prove that a user has paid for a VPN service.
+
+**Android crypt1 note:** clipboard and manual input are supported. Camera recognition of dense crypt1 QR codes still needs improvement on some devices, including the tested HUAWEI. Use clipboard or manual input if scanning does not work.
+
+## Help, updates and community
+
+- [Version history](https://dodoproxy.app/updates/)
+- [Report an issue or suggest a feature](https://dodoproxy.app/feedback/)
+- [Telegram community · @dododeveloper](https://t.me/dododeveloper)
+- [Telegram news · @dodoproxy](https://t.me/dodoproxy)
+- [Diagnostics and data settings](https://dodoproxy.app/docs/#diagnostics)
+
+Never post personal configuration URLs, crypt1 links, passwords, HWIDs or unredacted logs in public feedback. Technical error reports are sent with your permission; the app includes controls for disabling delivery and deleting reports.
+
 ---
 
-## Download
-
-- **Android (Google Play):**  
-  https://play.google.com/store/apps/details?id=app.dodo.jaman
-
-- **Windows (x64):**  
-  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-Setup-Windows-x64.exe
-
-- **macOS (Universal):**  
-  https://github.com/Jaman003/dodo_program/releases/latest/download/DoDoAPP-macOS-universal.dmg
-
-- **iOS:**  
-  *Coming soon (currently in publication)*
-
-> Windows and macOS builds are distributed directly via GitHub Releases.
-
-
----
-
-## Features
-
-- ✅ Powered by **Xray core**
-- ⚡ One-tap connect / disconnect
-- 🔁 Profiles & subscription links *(Xray-compatible configs)*
-- 🧭 Routing / bypass rules *(if enabled in your build)*
-- 🔒 DNS / leak protection *(if enabled in your build)*
-- 🧩 Clean UI for everyday use
-
----
-
-## Screenshots
+This is DoDo’s public information repository: product details, screenshots and official links. **The application source code is not published here.**
 
 <div align="center">
-  <img src="assets/screenshot-android.png" width="45%" alt="Android screenshot" />
-  <img src="assets/screenshot-desktop.png" width="45%" alt="Desktop screenshot" />
+
+**by Jaman Developer**
+
+[English](README.md) · [Русский](README.ru.md) · [فارسی](README.fa.md) · [简体中文](README.zh-CN.md)
+
 </div>
-
----
-
-## FAQ
-
-**Is DoDo APP a VPN service?**  
-No. DoDo APP is a client. You connect to your own server or subscription.
-
-**Does it collect logs?**  
-See: [Privacy Policy](docs/PRIVACY.md)
-
----
-
-## Security & Privacy
-
-- Read: [Privacy Policy](docs/PRIVACY.md)
-- Terms: [Terms of Use](docs/TERMS.md)
-- Report vulnerabilities: open a GitHub Security Advisory *(or add an email here)*
-
----
-
-## License
-Jaman Developer
