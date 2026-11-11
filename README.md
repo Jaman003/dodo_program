@@ -32,7 +32,7 @@ Add your connection keys, choose a server and keep an eye on your connection. Do
 | Device | Official download |
 | --- | --- |
 | iPhone and iPad | [App Store](https://apps.apple.com/app/id6759006686) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [Signed APK](https://dodoproxy.app/#download) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [Signed APK on GitHub](https://github.com/Jaman003/dodo_program/releases/latest/download/DoDo-Android.apk) · [Backup download](https://dodoproxy.app/#download) |
 | Mac | [Mac App Store](https://apps.apple.com/app/id6759006686) |
 | Windows | An updated release is being prepared |
 

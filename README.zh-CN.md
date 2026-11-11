@@ -32,7 +32,7 @@
 | 设备 | 官方下载渠道 |
 | --- | --- |
 | iPhone 和 iPad | [App Store](https://apps.apple.com/app/id6759006686) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [签名 APK](https://dodoproxy.app/#download) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [GitHub 签名 APK](https://github.com/Jaman003/dodo_program/releases/latest/download/DoDo-Android.apk) · [备用下载](https://dodoproxy.app/#download) |
 | Mac | [Mac App Store](https://apps.apple.com/app/id6759006686) |
 | Windows | 正在准备新版 |
 

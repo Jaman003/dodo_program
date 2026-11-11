@@ -34,7 +34,7 @@
 | دستگاه | دریافت رسمی |
 | --- | --- |
 | iPhone و iPad | [App Store](https://apps.apple.com/app/id6759006686) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [فایل APK](https://dodoproxy.app/#download) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=app.dodo.jaman) · [APK امضاشده در GitHub](https://github.com/Jaman003/dodo_program/releases/latest/download/DoDo-Android.apk) · [دریافت پشتیبان](https://dodoproxy.app/#download) |
 | Mac | [Mac App Store](https://apps.apple.com/app/id6759006686) |
 | Windows | نسخه به‌روز در حال آماده‌سازی است |
 
