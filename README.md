@@ -19,7 +19,7 @@
 <a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-[Website](https://dodoproxy.app/) · [Documentation](https://dodoproxy.app/docs/) · [Updates](https://dodoproxy.app/updates/) · [Feedback](https://dodoproxy.app/feedback/)
+[Website](https://dodoproxy.app/) · [Documentation](docs/README.md) · [Updates](docs/updates-feedback.md) · [Feedback](https://dodoproxy.app/feedback/)
 
 </div>
 
@@ -48,7 +48,7 @@ If you installed DoDo through Google Play, update it through the store. A direct
 - **Keep control.** Share a configuration QR code, view live diagnostic logs or reset the app settings.
 - **Make it yours.** Light and dark themes, plus the DoDo avatar collection.
 
-VLESS / REALITY, VMess, Trojan, Shadowsocks, Hysteria2 and SOCKS5 are covered in the [protocol guide](https://dodoproxy.app/docs/#protocols). Support for transports, WireGuard and advanced options varies by platform and profile. Check the [compatibility table](https://dodoproxy.app/docs/#status) rather than assuming every Xray configuration is supported.
+VLESS / REALITY, VMess, Trojan, Shadowsocks, Hysteria2 and SOCKS5 are covered in the [protocol guide](docs/protocols.md). Support for transports, WireGuard and advanced options varies by platform and profile. Check the [compatibility table](docs/compatibility.md) rather than assuming every Xray configuration is supported.
 
 DoDo Ping is an estimated display value, not raw TCP latency. An open TCP port alone does not prove that VPN authentication or internet access works.
 
@@ -77,24 +77,24 @@ The documentation includes:
 
 | Integration | Guide |
 | --- | --- |
-| Client protocols and full JSON profiles | [Formats and compatibility](https://dodoproxy.app/docs/#formats) |
-| Buttons in your bot or website | [Deep links](https://dodoproxy.app/docs/#deeplinks) |
-| Provider name, logo, support and device limits | [HTTP headers and HWID](https://dodoproxy.app/docs/#headers) |
-| A previously supplied backup configuration address | [fallback-url](https://dodoproxy.app/docs/#subscription-fallback) |
-| DoDo encrypted links and compatible encrypted responses | [crypt1](https://dodoproxy.app/docs/#crypt1) |
-| Routing rules and bundled data | [Routing](https://dodoproxy.app/docs/#routing) · [GeoIP / GeoSite](https://dodoproxy.app/docs/#geodata) |
+| Client protocols and full JSON profiles | [Formats and compatibility](docs/integration.md) |
+| Buttons in your bot or website | [Deep links](docs/deep-links.md) |
+| Provider name, logo, support and device limits | [HTTP headers and HWID](docs/integration.md) |
+| A previously supplied backup configuration address | [fallback-url](docs/fallback.md) |
+| DoDo encrypted links and compatible encrypted responses | [crypt1](docs/crypto.md) |
+| Routing rules and bundled data | [Routing](docs/routing.md) · [GeoIP / GeoSite](docs/routing.md) |
 
-The optional provider console is in **free early access**. Branding, public stories and other integrations have separate requirements and rollout status. See the [provider page](https://dodoproxy.app/providers/) before planning a production integration. Public provider IDs and DNS verification do not prove that a user has paid for a VPN service.
+The optional provider console is in **free early access**. Branding, public stories and other integrations have separate requirements and rollout status. See the [provider page](docs/provider-console.md) before planning a production integration. Public provider IDs and DNS verification do not prove that a user has paid for a VPN service.
 
 **Android crypt1 note:** clipboard and manual input are supported. Camera recognition of dense crypt1 QR codes still needs improvement on some devices, including the tested HUAWEI. Use clipboard or manual input if scanning does not work.
 
 ## Help, updates and community
 
-- [Version history](https://dodoproxy.app/updates/)
+- [Version history](docs/updates-feedback.md)
 - [Report an issue or suggest a feature](https://dodoproxy.app/feedback/)
 - [Telegram community · @dododeveloper](https://t.me/dododeveloper)
 - [Telegram news · @dodoproxy](https://t.me/dodoproxy)
-- [Diagnostics and data settings](https://dodoproxy.app/docs/#diagnostics)
+- [Diagnostics and data settings](docs/diagnostics.md)
 
 Never post personal configuration URLs, crypt1 links, passwords, HWIDs or unredacted logs in public feedback. Technical error reports are sent with your permission; the app includes controls for disabling delivery and deleting reports.
 

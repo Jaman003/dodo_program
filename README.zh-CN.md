@@ -19,7 +19,7 @@
 <a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-[官网](https://dodoproxy.app/) · [文档](https://dodoproxy.app/docs/) · [更新记录](https://dodoproxy.app/updates/) · [反馈](https://dodoproxy.app/feedback/)
+[官网](https://dodoproxy.app/) · [文档](docs/README.zh-CN.md) · [更新记录](docs/updates-feedback.zh-CN.md) · [反馈](https://dodoproxy.app/feedback/)
 
 </div>
 
@@ -48,7 +48,7 @@
 - **掌握应用设置：** 分享配置二维码、查看实时诊断日志、重置应用设置。
 - **选择喜欢的外观：** 浅色与深色主题，以及 DoDo 头像。
 
-VLESS / REALITY、VMess、Trojan、Shadowsocks、Hysteria2 和 SOCKS5 的说明见[协议文档](https://dodoproxy.app/docs/#protocols)。不同平台对传输方式、WireGuard 和高级配置的支持存在差异，请查看[兼容性表](https://dodoproxy.app/docs/#status)。
+VLESS / REALITY、VMess、Trojan、Shadowsocks、Hysteria2 和 SOCKS5 的说明见[协议文档](docs/protocols.zh-CN.md)。不同平台对传输方式、WireGuard 和高级配置的支持存在差异，请查看[兼容性表](docs/compatibility.zh-CN.md)。
 
 DoDo Ping 显示的是估算值，不是原始 TCP 延迟。TCP 端口开放也不代表 VPN 身份验证或互联网访问一定正常。
 
@@ -75,24 +75,24 @@ DoDo 可与 Remnawave 或自研面板配合使用，不要求使用特定面板�
 
 | 接入内容 | 文档 |
 | --- | --- |
-| 协议和完整 JSON 配置 | [格式与兼容性](https://dodoproxy.app/docs/#formats) |
-| 在机器人或网站中添加按钮 | [深度链接](https://dodoproxy.app/docs/#deeplinks) |
-| 服务名称、Logo、客服和设备数量限制 | [HTTP 响应头与 HWID](https://dodoproxy.app/docs/#headers) |
-| 预先提供的备用配置地址 | [fallback-url](https://dodoproxy.app/docs/#subscription-fallback) |
-| DoDo 加密链接 | [crypt1](https://dodoproxy.app/docs/#crypt1) |
-| 路由规则和内置数据 | [路由](https://dodoproxy.app/docs/#routing) · [GeoIP / GeoSite](https://dodoproxy.app/docs/#geodata) |
+| 协议和完整 JSON 配置 | [格式与兼容性](docs/integration.zh-CN.md) |
+| 在机器人或网站中添加按钮 | [深度链接](docs/deep-links.zh-CN.md) |
+| 服务名称、Logo、客服和设备数量限制 | [HTTP 响应头与 HWID](docs/integration.zh-CN.md) |
+| 预先提供的备用配置地址 | [fallback-url](docs/fallback.zh-CN.md) |
+| DoDo 加密链接 | [crypt1](docs/crypto.zh-CN.md) |
+| 路由规则和内置数据 | [路由](docs/routing.zh-CN.md) · [GeoIP / GeoSite](docs/routing.zh-CN.md) |
 
-服务商控制台目前提供**免费抢先体验**。品牌外观、公开动态及其他接入功能有各自的使用条件和发布状态，详见[服务商页面](https://dodoproxy.app/providers/)。公开服务商 ID 和 DNS 验证不能证明用户已支付 VPN 服务费用。
+服务商控制台目前提供**免费抢先体验**。品牌外观、公开动态及其他接入功能有各自的使用条件和发布状态，详见[服务商页面](docs/provider-console.zh-CN.md)。公开服务商 ID 和 DNS 验证不能证明用户已支付 VPN 服务费用。
 
 **Android crypt1 提示：** 支持通过剪贴板或手动输入添加链接。部分设备对高密度 crypt1 二维码的相机识别仍需改进，包括已测试的 HUAWEI 设备。如果扫描无响应，请使用剪贴板或手动输入。
 
 ## 更新、反馈与社区
 
-- [版本更新记录](https://dodoproxy.app/updates/)
+- [版本更新记录](docs/updates-feedback.zh-CN.md)
 - [反馈问题与建议](https://dodoproxy.app/feedback/)
 - [Telegram 交流社区 · @dododeveloper](https://t.me/dododeveloper)
 - [Telegram 更新频道 · @dodoproxy](https://t.me/dodoproxy)
-- [诊断与数据设置](https://dodoproxy.app/docs/#diagnostics)
+- [诊断与数据设置](docs/diagnostics.zh-CN.md)
 
 请勿在公开反馈中发布个人配置地址、crypt1 链接、密码、HWID 或未经脱敏的日志。技术错误报告会在获得许可后发送；你可以在应用中关闭发送或删除报告。
 

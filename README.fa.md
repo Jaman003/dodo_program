@@ -19,7 +19,7 @@
 <a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-[وب‌سایت](https://dodoproxy.app/) · [مستندات](https://dodoproxy.app/docs/) · [تغییرات](https://dodoproxy.app/updates/) · [بازخورد](https://dodoproxy.app/feedback/)
+[وب‌سایت](https://dodoproxy.app/) · [مستندات](docs/README.fa.md) · [تغییرات](docs/updates-feedback.fa.md) · [بازخورد](https://dodoproxy.app/feedback/)
 
 </div>
 
@@ -50,7 +50,7 @@
 - **کنترل برنامه:** اشتراک‌گذاری QR تنظیمات، گزارش‌های زنده عیب‌یابی و بازنشانی تنظیمات.
 - **ظاهر دلخواه:** پوسته روشن و تیره و مجموعه آواتارهای DoDo.
 
-VLESS / REALITY، VMess، Trojan، Shadowsocks، Hysteria2 و SOCKS5 در [راهنمای پروتکل‌ها](https://dodoproxy.app/docs/#protocols) توضیح داده شده‌اند. پشتیبانی از ترنسپورت‌ها، WireGuard و تنظیمات پیشرفته در همه پلتفرم‌ها یکسان نیست؛ [جدول سازگاری](https://dodoproxy.app/docs/#status) را ببینید.
+VLESS / REALITY، VMess، Trojan، Shadowsocks، Hysteria2 و SOCKS5 در [راهنمای پروتکل‌ها](docs/protocols.fa.md) توضیح داده شده‌اند. پشتیبانی از ترنسپورت‌ها، WireGuard و تنظیمات پیشرفته در همه پلتفرم‌ها یکسان نیست؛ [جدول سازگاری](docs/compatibility.fa.md) را ببینید.
 
 DoDo Ping مقدار تخمینی نشان می‌دهد، نه تأخیر خام TCP. باز بودن پورت TCP به‌تنهایی به معنای موفقیت احراز هویت یا دسترسی به اینترنت از طریق VPN نیست.
 
@@ -81,24 +81,24 @@ DoDo می‌تواند با Remnawave یا پنل اختصاصی شما کار �
 
 | موضوع | راهنما |
 | --- | --- |
-| پروتکل‌ها و پروفایل کامل JSON | [قالب‌ها و سازگاری](https://dodoproxy.app/docs/#formats) |
-| دکمه در ربات یا وب‌سایت | [دیپ‌لینک‌ها](https://dodoproxy.app/docs/#deeplinks) |
-| نام، لوگو، پشتیبانی و محدودیت دستگاه | [هدرهای HTTP و HWID](https://dodoproxy.app/docs/#headers) |
-| آدرس جایگزین دریافت‌شده از قبل | [fallback-url](https://dodoproxy.app/docs/#subscription-fallback) |
-| لینک‌های رمزگذاری‌شده DoDo | [crypt1](https://dodoproxy.app/docs/#crypt1) |
-| مسیریابی و داده‌های داخلی | [مسیریابی](https://dodoproxy.app/docs/#routing) · [GeoIP / GeoSite](https://dodoproxy.app/docs/#geodata) |
+| پروتکل‌ها و پروفایل کامل JSON | [قالب‌ها و سازگاری](docs/integration.fa.md) |
+| دکمه در ربات یا وب‌سایت | [دیپ‌لینک‌ها](docs/deep-links.fa.md) |
+| نام، لوگو، پشتیبانی و محدودیت دستگاه | [هدرهای HTTP و HWID](docs/integration.fa.md) |
+| آدرس جایگزین دریافت‌شده از قبل | [fallback-url](docs/fallback.fa.md) |
+| لینک‌های رمزگذاری‌شده DoDo | [crypt1](docs/crypto.fa.md) |
+| مسیریابی و داده‌های داخلی | [مسیریابی](docs/routing.fa.md) · [GeoIP / GeoSite](docs/routing.fa.md) |
 
-پنل ارائه‌دهندگان به‌صورت **رایگان در دسترسی اولیه** قرار دارد. امکانات ظاهری، استوری‌های عمومی و دیگر یکپارچه‌سازی‌ها شرایط و وضعیت انتشار جداگانه دارند؛ [صفحه ارائه‌دهندگان](https://dodoproxy.app/providers/) را ببینید. شناسه عمومی ارائه‌دهنده و تأیید DNS، پرداخت هزینه VPN از طرف کاربر را اثبات نمی‌کنند.
+پنل ارائه‌دهندگان به‌صورت **رایگان در دسترسی اولیه** قرار دارد. امکانات ظاهری، استوری‌های عمومی و دیگر یکپارچه‌سازی‌ها شرایط و وضعیت انتشار جداگانه دارند؛ [صفحه ارائه‌دهندگان](docs/provider-console.fa.md) را ببینید. شناسه عمومی ارائه‌دهنده و تأیید DNS، پرداخت هزینه VPN از طرف کاربر را اثبات نمی‌کنند.
 
 **نکته crypt1 در Android:** لینک را از کلیپ‌بورد یا به‌صورت دستی وارد کنید. تشخیص QRهای بسیار متراکم crypt1 با دوربین بعضی دستگاه‌ها، از جمله HUAWEI آزمایش‌شده، هنوز نیاز به بهبود دارد. اگر اسکن انجام نمی‌شود، از کلیپ‌بورد یا ورود دستی استفاده کنید.
 
 ## همراه DoDo بمانید
 
-- [تغییرات نسخه‌ها](https://dodoproxy.app/updates/)
+- [تغییرات نسخه‌ها](docs/updates-feedback.fa.md)
 - [گزارش مشکل یا پیشنهاد](https://dodoproxy.app/feedback/)
 - [گروه گفتگو در تلگرام · @dododeveloper](https://t.me/dododeveloper)
 - [کانال اخبار · @dodoproxy](https://t.me/dodoproxy)
-- [عیب‌یابی و تنظیمات داده‌ها](https://dodoproxy.app/docs/#diagnostics)
+- [عیب‌یابی و تنظیمات داده‌ها](docs/diagnostics.fa.md)
 
 آدرس شخصی تنظیمات، لینک crypt1، گذرواژه، HWID یا گزارش‌های حاوی اطلاعات محرمانه را عمومی نکنید. گزارش‌های فنی خطا با اجازه شما ارسال می‌شوند؛ در برنامه می‌توانید ارسال را غیرفعال و گزارش‌ها را حذف کنید.
 

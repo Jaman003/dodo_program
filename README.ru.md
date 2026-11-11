@@ -19,7 +19,7 @@
 <a href="https://apps.apple.com/app/id6759006686"><img src="media/mac-app-store.svg" width="210" alt="macOS — Mac App Store" /></a>
 </p>
 
-[Сайт](https://dodoproxy.app/) · [Документация](https://dodoproxy.app/docs/) · [Обновления](https://dodoproxy.app/updates/) · [Обратная связь](https://dodoproxy.app/feedback/)
+[Сайт](https://dodoproxy.app/) · [Документация](docs/README.ru.md) · [Обновления](docs/updates-feedback.ru.md) · [Обратная связь](https://dodoproxy.app/feedback/)
 
 </div>
 
@@ -48,7 +48,7 @@
 - **Управляйте приложением.** QR-код конфигурации для обмена, живые диагностические логи и сброс настроек.
 - **Выбирайте свой стиль.** Светлая и тёмная темы, коллекция аватаров DoDo.
 
-VLESS / REALITY, VMess, Trojan, Shadowsocks, Hysteria2 и SOCKS5 описаны в [разделе протоколов](https://dodoproxy.app/docs/#protocols). Поддержка транспортов, WireGuard и расширенных параметров зависит от платформы и профиля. Перед интеграцией проверьте [таблицу совместимости](https://dodoproxy.app/docs/#status): не каждая конфигурация Xray подходит всем клиентам.
+VLESS / REALITY, VMess, Trojan, Shadowsocks, Hysteria2 и SOCKS5 описаны в [разделе протоколов](docs/protocols.ru.md). Поддержка транспортов, WireGuard и расширенных параметров зависит от платформы и профиля. Перед интеграцией проверьте [таблицу совместимости](docs/compatibility.ru.md): не каждая конфигурация Xray подходит всем клиентам.
 
 DoDo Ping показывает оценочное значение, а не исходную задержку TCP. Открытый TCP-порт сам по себе не подтверждает авторизацию и доступ в интернет через VPN.
 
@@ -77,24 +77,24 @@ DoDo работает с Remnawave и собственными панелями.
 
 | Интеграция | Где посмотреть |
 | --- | --- |
-| Протоколы и полные JSON-профили | [Форматы и совместимость](https://dodoproxy.app/docs/#formats) |
-| Кнопки в боте и на сайте | [Диплинки](https://dodoproxy.app/docs/#deeplinks) |
-| Название, логотип, поддержка и лимиты устройств | [HTTP-заголовки и HWID](https://dodoproxy.app/docs/#headers) |
-| Заранее полученный запасной адрес конфигурации | [fallback-url](https://dodoproxy.app/docs/#subscription-fallback) |
-| Криптоссылки DoDo и совместимые зашифрованные ответы | [crypt1](https://dodoproxy.app/docs/#crypt1) |
-| Правила и встроенные геоданные | [Маршрутизация](https://dodoproxy.app/docs/#routing) · [GeoIP / GeoSite](https://dodoproxy.app/docs/#geodata) |
+| Протоколы и полные JSON-профили | [Форматы и совместимость](docs/integration.ru.md) |
+| Кнопки в боте и на сайте | [Диплинки](docs/deep-links.ru.md) |
+| Название, логотип, поддержка и лимиты устройств | [HTTP-заголовки и HWID](docs/integration.ru.md) |
+| Заранее полученный запасной адрес конфигурации | [fallback-url](docs/fallback.ru.md) |
+| Криптоссылки DoDo и совместимые зашифрованные ответы | [crypt1](docs/crypto.ru.md) |
+| Правила и встроенные геоданные | [Маршрутизация](docs/routing.ru.md) · [GeoIP / GeoSite](docs/routing.ru.md) |
 
-Кабинет провайдеров доступен **бесплатно в раннем доступе**. Для оформления, публичных сторис и других интеграций действуют отдельные требования; состояние функций указано на [странице провайдеров](https://dodoproxy.app/providers/). Публичный provider ID и DNS-подтверждение не доказывают оплату VPN пользователем.
+Кабинет провайдеров доступен **бесплатно в раннем доступе**. Для оформления, публичных сторис и других интеграций действуют отдельные требования; состояние функций указано на [странице провайдеров](docs/provider-console.ru.md). Публичный provider ID и DNS-подтверждение не доказывают оплату VPN пользователем.
 
 **crypt1 на Android:** добавляйте ссылку из буфера или вручную. Распознавание камерой плотных QR-кодов crypt1 на некоторых устройствах, включая проверенный HUAWEI, ещё требует доработки. Если QR не считывается, воспользуйтесь буфером или ручным вводом.
 
 ## Поддержка, обновления и сообщество
 
-- [История изменений](https://dodoproxy.app/updates/)
+- [История изменений](docs/updates-feedback.ru.md)
 - [Сообщить о проблеме или предложить функцию](https://dodoproxy.app/feedback/)
 - [Сообщество в Telegram · @dododeveloper](https://t.me/dododeveloper)
 - [Канал с новостями · @dodoproxy](https://t.me/dodoproxy)
-- [Диагностика и настройки данных](https://dodoproxy.app/docs/#diagnostics)
+- [Диагностика и настройки данных](docs/diagnostics.ru.md)
 
 Не публикуйте персональные ссылки конфигураций, crypt1-ссылки, пароли, HWID и логи без удаления секретов. Технические отчёты об ошибках отправляются с вашего согласия; отправку можно отключить, а отчёты удалить в приложении.
 
