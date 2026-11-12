@@ -8,6 +8,8 @@ Give your users an HTTPS configuration link and an [Open in DoDo](deep-links.md)
 
 The details below describe the iOS 2.2.0 and Android APK 2.2.0 (2107) feature baseline. For rollout differences, see [platform compatibility](compatibility.md).
 
+**For prepared iOS 2.2.2 (113):** root `env` and `version` remain in full JSON; the core checks `version.min` / `version.max` before startup. Compatible URI parameters and actual successful HTTP headers can supply FinalMask / fragmentation settings. This build is uploaded to App Store Connect for processing, not yet submitted to App Review or announced as available in the store. [Parameters, precedence and limitations](ios-2.2.2.md). These changes do not automatically apply to Android.
+
 ## 1. Return the right configuration
 
 Match iOS requests with `User-Agent: DoDoApp`. Android uses the `DoDoApp/` prefix, for example `DoDoApp/2.2.0+2107 (Android 15; Demo Model)`. A rule that requires an exact `DoDoApp` match will miss Android.

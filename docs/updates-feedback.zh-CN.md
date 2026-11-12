@@ -8,8 +8,9 @@
 
 [官方更新记录](https://dodoproxy.app/updates/)提供平台筛选与搜索。源代码改动、测试构建、签名下载和商店发布是不同阶段；一个平台上线，不代表其他平台也已上线。
 
-| 平台 | 版本与日期 | 已发布改进 |
+| 平台 | 版本与日期 | 改动与状态 |
 | --- | --- | --- |
+| iOS / iPadOS | [2.2.2（113）· 2026 年 11 月 12 日](ios-2.2.2.zh-CN.md) | 已上传至 App Store Connect 以供处理，尚未提交 App Review，也尚未宣布在商店上线。改进完整 JSON 的 env/version、HTTP GET/HEAD、Hysteria2 地理数据、DNS/有限 FakeDNS、FinalMask 和分片。 |
 | iOS / iPadOS | [2.2.1 · 2026 年 11 月 9 日](https://apps.apple.com/app/id6759006686) | 改进密钥添加和更新；修复部分完整 Xray 配置导入。App Store 元数据于 2026 年 11 月 11 日核验。 |
 | iOS / iPadOS | [2.2.0 · 2026 年 11 月 6 日](https://dodoproxy.app/updates/#ios-2-2-0) | 核心与连接稳定性、密钥导入和更新、完整配置、受保护链接、DNS/网络设置及 QR/界面修复。要求 iOS 15 或更新版本。 |
 | Android | [APK 2.2.0 (2107) · 2026 年 11 月 10 日](https://dodoproxy.app/updates/#android-2-2-0-2107) | 紧凑圆形控件、改进动画和卡片、明显加载提示、QR/剪贴板快捷操作、原始 TCP 和完整配置检查、crypt1/AGE1、备用地址、网络设置及经同意的诊断。 |

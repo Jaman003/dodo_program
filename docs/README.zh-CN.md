@@ -24,6 +24,7 @@ DoDo 是基于 Xray 的客户端，用于服务商或自建服务器提供的密
 
 | 指南 | 内容 |
 | --- | --- |
+| [准备中的 iOS 2.2.2（113）](ios-2.2.2.zh-CN.md) | App Store Connect 状态、完整 JSON 的 env/version、HTTP 检查、DNS 和 FinalMask |
 | [服务商集成](integration.zh-CN.md) | 响应格式、完整 JSON、响应头、自动更新间隔与 HWID |
 | [协议与传输](protocols.zh-CN.md) | VLESS、VMess、Trojan、Shadowsocks、Hysteria2、SOCKS5、WireGuard、TLS / REALITY 及限制 |
 | [深层链接](deep-links.zh-CN.md) | 机器人与网站按钮、URI 编码、支持命令及常见错误 |
@@ -42,6 +43,8 @@ DoDo 是基于 Xray 的客户端，用于服务商或自建服务器提供的密
 - **开发中 / 暂不可用：**尚不应向用户承诺可用。
 
 除非另有说明，功能表以 iOS 2.2.0 和 Android APK 2.2.0（2107）为基准。App Store 已于 **2026 年 11 月 9 日**发布 iOS **2.2.1**，但版本号本身不能证明新的控制台功能已部署。请参阅[兼容性](compatibility.zh-CN.md)和[版本历史](updates-feedback.zh-CN.md)。
+
+**iOS 2.2.2（113）**已于 11 月 12 日上传至 App Store Connect 以供处理，尚未提交 App Review，也尚未宣布在商店上线。[单独说明](ios-2.2.2.zh-CN.md)列出了其改动和限制，不代表其他平台同步发布。
 
 公开 UUID `x-dodo-provider-id` 与备用地址使用的旧 `providerid` 标识不同，两者都不能证明付费资格。公开品牌和动态、私有受众访问、按 provider ID 划分的设备统计具有不同要求与发布状态。
 

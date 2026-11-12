@@ -44,6 +44,7 @@ Use the actual values configured on your server. For nested transport settings, 
 
 - Invalid certificate pins, unsupported mandatory ECH requirements and certificate-verification bypass requests cause rejection of that URI, not weakened TLS checks.
 - Compatible full JSON can carry TLS fragmentation, including `freedom.settings.fragment`. There is no dedicated fragmentation editor.
+- Prepared **iOS 2.2.2 (113)** adds compatible `fm`, `fragment`, `fragmentPackets` / `fragmentLength` / `fragmentInterval` and the documented `fragmentation-*` HTTP headers. Complete JSON takes precedence; masks are not stacked, TLS is not weakened and automatic TCP fragmentation is not applied to Hysteria. The build is uploaded to App Store Connect for processing, not yet submitted to App Review. [Details and status](ios-2.2.2.md).
 - Supported `flow`, mux, socket and transport settings must match the server and core. “VLESS supported” does not certify every Vision / REALITY / XHTTP combination.
 - Importing a profile does not prove its server is reachable. [HTTP tests and diagnostic logs](diagnostics.md) help separate loading, authentication and connectivity failures.
 

@@ -8,6 +8,8 @@
 
 These modes are documented for iOS 2.2.0 and Android APK 2.2.0 (2107). This does not imply identical behavior on every platform.
 
+In prepared **iOS 2.2.2 (113)**, HTTP GET / HEAD retain the supported full profile, including `env` / `version`, DNS, routing and the selected balancer. Helper-core settings are isolated between checks; Hysteria2 geodata preparation for automatic HTTP checks is fixed. Separate HTTP checks are unavailable for FakeDNS profiles, so `N/A` does not prove VPN failure. [Details](ios-2.2.2.md). The build is uploaded to App Store Connect for processing, not yet submitted to App Review or announced as available in the store.
+
 | Mode | Measurement | Limitation |
 | --- | --- | --- |
 | TCP, the default | Time to establish a TCP connection to the server, without division. | An open port does not prove authentication, internet access or VPN speed. |

@@ -24,6 +24,7 @@ For providers: start with [integration](integration.md), add an [Open in DoDo bu
 
 | Guide | What you will find |
 | --- | --- |
+| [Preparing iOS 2.2.2 (113)](ios-2.2.2.md) | App Store Connect status, full JSON env/version, HTTP checks, DNS and FinalMask |
 | [Provider integration](integration.md) | Response formats, full JSON, headers, auto-update interval and HWID |
 | [Protocols and transports](protocols.md) | VLESS, VMess, Trojan, Shadowsocks, Hysteria2, SOCKS5, WireGuard, TLS / REALITY and limits |
 | [Deep links](deep-links.md) | Bot and website buttons, URI encoding, supported commands and common mistakes |
@@ -42,6 +43,8 @@ For providers: start with [integration](integration.md), add an [Open in DoDo bu
 - **In development / not available** means it should not be promised to customers yet.
 
 Feature tables use the iOS 2.2.0 and Android APK 2.2.0 (2107) baseline unless stated otherwise. The App Store lists iOS **2.2.1**, released **9 November 2026**; that alone does not confirm deployment of newer provider-console features. See [compatibility](compatibility.md) and [release history](updates-feedback.md).
+
+**iOS 2.2.2 (113)** was uploaded to App Store Connect for processing on 12 November. It has not been submitted to App Review or announced as available in the store. Its changes and limitations are [listed separately](ios-2.2.2.md), without implying a release on other platforms.
 
 The public `x-dodo-provider-id` UUID and the older `providerid` backup-address label are different fields. Neither confirms a paid account. Public branding/stories, private audience access and provider-specific device statistics have separate requirements and rollout status.
 

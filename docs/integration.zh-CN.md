@@ -8,6 +8,8 @@
 
 本文以 iOS 2.2.0 和 Android APK 2.2.0（2107）的功能为基准。平台差异与发布状态见[兼容性表](compatibility.zh-CN.md)。
 
+**已准备的 iOS 2.2.2（113）：**完整 JSON 保留根级 `env` 和 `version`，由核心在启动前检查 `version.min` / `version.max`。兼容 URI 参数和真实成功的 HTTP 响应头可提供 FinalMask / 分片设置。构建已上传至 App Store Connect 以供处理，尚未提交 App Review，也尚未宣布在商店上线。[参数、优先级与限制](ios-2.2.2.zh-CN.md)。这些改动不会自动应用于 Android。
+
 ## 1. 返回正确的配置
 
 iOS 使用 `User-Agent: DoDoApp`。Android 使用 `DoDoApp/` 前缀，例如 `DoDoApp/2.2.0+2107 (Android 15; Demo Model)`。仅精确匹配 `DoDoApp` 的规则无法覆盖 Android。

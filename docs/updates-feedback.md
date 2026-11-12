@@ -8,8 +8,9 @@
 
 The [official update history](https://dodoproxy.app/updates/) contains platform filters and search. A source change, test build, signed download and store release are different stages; availability on one platform does not establish availability on another.
 
-| Platform | Version and date | Published changes |
+| Platform | Version and date | Changes and status |
 | --- | --- | --- |
+| iOS / iPadOS | [2.2.2 (113) · 12 November 2026](ios-2.2.2.md) | Uploaded to App Store Connect for processing; not yet submitted to App Review or announced as available in the store. Full JSON env/version, HTTP GET/HEAD, Hysteria2 geodata, DNS/limited FakeDNS, FinalMask and fragmentation. |
 | iOS / iPadOS | [2.2.1 · 9 November 2026](https://apps.apple.com/app/id6759006686) | Improved adding and updating keys; fixed importing some complete Xray configurations. App Store metadata checked on 11 November 2026. |
 | iOS / iPadOS | [2.2.0 · 6 November 2026](https://dodoproxy.app/updates/#ios-2-2-0) | Core and connection stability improvements; key import/update, full configurations, protected links, DNS/network settings and QR/UI fixes. Requires iOS 15 or later. |
 | Android | [APK 2.2.0 (2107) · 10 November 2026](https://dodoproxy.app/updates/#android-2-2-0-2107) | Compact circular controls, revised animations and cards, visible loading, QR/clipboard shortcuts, raw TCP and full-profile checks, crypt1/AGE1, fallback, network settings and consented diagnostics. |

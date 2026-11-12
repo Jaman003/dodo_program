@@ -8,6 +8,8 @@
 
 本页以 iOS 2.2.0 和 Android APK 2.2.0 (2107) 的已记录功能为基准。其他版本的支持情况需要单独确认。
 
+**已准备的 iOS 2.2.2（113）**改进兼容 DNS 协调、split DoH 和带循环检测的本地别名。支持明确配置、使用标准地址池的兼容 FakeDNS，不代表支持任意混合 DNS 或 Lua。简化的 `autorouting` 格式并未扩展，下方 DNS/FakeDNS 限制仍适用。[支持边界与 App Store Connect 处理状态](ios-2.2.2.zh-CN.md)；构建尚未提交 App Review，也尚未宣布在商店上线。
+
 ## 静态规则
 
 ```json

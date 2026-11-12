@@ -44,6 +44,7 @@
 
 - 无效的证书 pin、不支持的强制 ECH 要求、绕过证书验证的请求会使该 URI 被拒绝，而不会降低 TLS 验证强度。
 - 兼容的完整 JSON 可携带 TLS 分片，包括 `freedom.settings.fragment`；应用没有独立分片编辑器。
+- 已准备的 **iOS 2.2.2（113）**增加兼容的 `fm`、`fragment`、`fragmentPackets` / `fragmentLength` / `fragmentInterval` 及文档列出的 `fragmentation-*` HTTP 响应头。完整 JSON 优先，掩码不叠加，TLS 验证不降低，也不会自动对 Hysteria 应用 TCP 分片。构建已上传至 App Store Connect 以供处理，尚未提交 App Review。[详情与状态](ios-2.2.2.zh-CN.md)。
 - `flow`、mux、套接字和传输设置必须匹配服务器与核心。支持 VLESS 不代表保证所有 Vision / REALITY / XHTTP 组合可用。
 - 导入成功不能证明服务器可达。[HTTP 测试与诊断日志](diagnostics.zh-CN.md)可帮助区分加载、认证和网络故障。
 

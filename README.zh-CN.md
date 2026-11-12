@@ -38,6 +38,10 @@
 
 如果你通过 Google Play 安装了 DoDo，请通过商店更新。直接下载的 APK 可能使用不同签名。**不要为了安装 APK 而卸载应用或删除数据。**
 
+### iOS 2.2.2 正在准备
+
+构建 **2.2.2（113）**已于 2026 年 11 月 12 日上传至 App Store Connect 以供处理，尚未提交 App Review，也尚未宣布在商店上线。本次改进完整 JSON 的 `env` / `version`、配置 HTTP 检查、DNS 及兼容的 FinalMask / 分片参数。[改动与限制](docs/ios-2.2.2.zh-CN.md)。此次更新不改变 Android、macOS 或 Windows 的状态。
+
 ## 日常使用所需的功能
 
 - **添加自己的密钥：** 支持剪贴板、手动输入和扫描二维码。

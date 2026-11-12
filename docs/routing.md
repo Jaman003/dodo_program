@@ -8,6 +8,8 @@ Use routing rules to send selected destinations directly, through the proxy, or 
 
 This page describes the documented iOS 2.2.0 and Android APK 2.2.0 (2107) baseline. Availability in another build must be checked separately.
 
+**Prepared iOS 2.2.2 (113)** improves compatible DNS alignment, split DoH and local aliases with cycle protection. It supports explicit compatible FakeDNS profiles with standard pools, not arbitrary mixed DNS graphs or Lua. This does not extend the small `autorouting` format: its DNS/FakeDNS restrictions below remain. [Support boundaries and App Store Connect processing status](ios-2.2.2.md); the build has not been submitted to App Review or announced as available in the store.
+
 ## Static rules
 
 ```json

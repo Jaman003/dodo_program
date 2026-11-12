@@ -38,6 +38,10 @@ Add your connection keys, choose a server and keep an eye on your connection. Do
 
 If you installed DoDo through Google Play, update it through the store. A directly downloaded APK may use a different signing key. **Do not uninstall the app or delete its data to work around a signature mismatch.**
 
+### iOS 2.2.2 is being prepared
+
+Build **2.2.2 (113)** was uploaded to App Store Connect for processing on 12 November 2026; it has not been submitted to App Review or announced as available in the store. It improves full JSON with `env` / `version`, profile HTTP checks, DNS and compatible FinalMask / fragmentation parameters. [Changes and limitations](docs/ios-2.2.2.md). This update does not change Android, macOS or Windows.
+
 ## Made for everyday use
 
 - **Bring your keys.** Import supported links from the clipboard, enter them manually or scan a QR code.

@@ -8,6 +8,20 @@ DoDo versions do not gain features at the same time. A successful import, a succ
 
 The feature baseline below is **iOS 2.2.0** and **Android APK 2.2.0 (2107)**. The iOS App Store listing checked on **11 November 2026** shows **2.2.1**, released on 9 November; it requires iOS 15 or later. Its release notes describe key loading/updating and some full-JSON import fixes. That does not confirm publication of every newer provider integration.
 
+## Prepared iOS 2.2.2 (113)
+
+The build was uploaded to App Store Connect for processing on 12 November 2026. **It has not been submitted to App Review or announced as available on the App Store.** The baseline tables below do not imply that this update has been published.
+
+| iOS 2.2.2 improvement | Support boundary |
+| --- | --- |
+| Full JSON `env` / `version` | Fields are retained; the core checks version requirements and rejects protected app variables |
+| HTTP GET / HEAD | Shared connection preparation, selected proxy/balancer, ENV isolation and Hysteria2 geodata fix; no active-VPN reconnect |
+| DNS, split DoH and aliases | Compatible arrangements and bounded alias chains with cycle checks, not universal DNS conversion |
+| FakeDNS | Explicit compatible profiles with standard pools; separate HTTP checks are unavailable for them and Lua is not supported |
+| FinalMask / fragmentation | Compatible URIs and actual successful HTTP headers; full JSON takes precedence and masks are not automatically stacked |
+
+[Build details and limitations](ios-2.2.2.md). Android APK **2.2.0 (2107)** and the macOS / Windows release status are unchanged; TLS verification is not weakened.
+
 ## Platforms
 
 | Platform | Release and documentation scope |
